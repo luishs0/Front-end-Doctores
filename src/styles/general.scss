@@ -1,0 +1,20 @@
+// use variables
+@use "partials/variables" as *;
+
+// import font awesome
+@import "node_modules/@fortawesome/fontawesome-free/css/all.min.css";
+
+// import bootstrap
+@import "node_modules/bootstrap/scss/bootstrap";
+
+// general reset formatting section
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+// anchor general formatting section
+a {
+  text-decoration: none;
+}
